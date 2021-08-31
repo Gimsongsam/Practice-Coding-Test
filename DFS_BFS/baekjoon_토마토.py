@@ -20,44 +20,45 @@ def bfs(x, y):
     queue = deque()
     queue.append((x, y))
 
-    while queue:
-        x, y = queue.popleft()
-        
-        # 현재 좌표의 값이 1이상이라면 주변 토마토를 익은 토마토로 만들기
-        if data[x][y] >= 1:
-            for i in range(4):
-                nx = x + dx[i]
-                ny = y + dy[i]
-                # 현재 좌표값이 범위에 들어오지 않는다면 패스
-                if nx < 0 or ny < 0 or nx > n-1 or ny > m-1:
-                    continue
-                # 만약 좌표값이 0이라면 익은 토마토로 만들기
-                elif data[nx][ny] == 0:
-                    data[nx][ny] = 1
+    # while queue:
+        # x, y = queue.popleft()
 
         # 익은 토마토를 탐색하기
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
+    for i in range(4):
+        nx = x + dx[i]
+        ny = y + dy[i]
 
-            # 탐색 좌표가 범위에 포함되는지 확인하기
-            if nx < 0 or ny < 0 or nx > n-1 or ny > m-1:
-                continue
-            elif data[nx][ny] == 0:
-                continue
-            elif data[nx][ny] == 1:
-                data[nx][ny] = data[x][y] + 1
-                queue.append((nx, ny))
-
-    # return result
+        # 탐색 좌표가 범위에 포함되는지 확인하기
+        if nx < 0 or ny < 0 or nx > n-1 or ny > m-1:
+            continue
+        elif data[nx][ny] == 0:
+            continue
+        elif data[nx][ny] == 1:
+            # data[nx][ny] = data[x][y] + 1
+            queue.append((nx, ny))
+        
+    return queue
 
 for i in range(n):
     for j in range(m):
         x, y = i, j
         bfs(x, y)
 
-for i in range(n):
-    print(data[i])
+
+# 현재 좌표의 값이 1이상이라면 주변 토마토를 익은 토마토로 만들기
+# if data[x][y] >= 1:
+#     for i in range(4):
+#         nx = x + dx[i]
+#         ny = y + dy[i]
+#         # 현재 좌표값이 범위에 들어오지 않는다면 패스
+#         if nx < 0 or ny < 0 or nx > n-1 or ny > m-1:
+#             continue
+#         # 만약 좌표값이 0이라면 익은 토마토로 만들기
+#         elif data[nx][ny] == 0:
+#             data[nx][ny] = 1
+
+# for i in range(n):
+#     print(data[i])
 
 
 
