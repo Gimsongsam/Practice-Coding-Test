@@ -9,3 +9,6 @@
 볼링공 고르기|[이것이 코딩테스트다](https://gimsong83.notion.site/f6e06ed71ef34f7fb4873e6ab3204e26)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/11-5_%EB%B3%BC%EB%A7%81%EA%B3%B5%20%EA%B3%A0%EB%A5%B4%EA%B8%B0.py)
 로또의 최고 순위와 최저 순위|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/77484)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/%EB%A1%9C%EB%98%90%EC%9D%98%20%EC%B5%9C%EA%B3%A0%20%EC%88%9C%EC%9C%84%EC%99%80%20%EC%B5%9C%EC%A0%80%20%EC%88%9C%EC%9C%84.py)
 라디오|[beakjoon_3135](https://www.acmicpc.net/problem/3135)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_3135.py)
+이장님 초대|[beakjoon_9237](https://www.acmicpc.net/problem/9237)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_9237.py)
+전자레인지|[beakjoon_10162](https://www.acmicpc.net/problem/10162)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_10162.py)
+소가 길을 건너간 이유3|[beakjoon_14469](https://www.acmicpc.net/problem/14469)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_14469.py)
