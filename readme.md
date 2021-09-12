@@ -12,3 +12,5 @@
 이장님 초대|[beakjoon_9237](https://www.acmicpc.net/problem/9237)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_9237.py)
 전자레인지|[beakjoon_10162](https://www.acmicpc.net/problem/10162)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_10162.py)
 소가 길을 건너간 이유3|[beakjoon_14469](https://www.acmicpc.net/problem/14469)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_14469.py)
+동전0|[beakjoon_11047](https://www.acmicpc.net/problem/11047)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_%EB%8F%99%EC%A0%84_11047.py)
+뒤집기|[beakjoon_1439](https://www.acmicpc.net/problem/1439)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/beakjoon_1439.py)
