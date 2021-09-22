@@ -1,51 +1,81 @@
-from collections import deque
 
 def solution(numbers, hand):
+    answer = ''
+
     left = [1, 4, 7]
     right = [3, 6, 9]
-    middled = [2, 5, 8, 0]
-
-    # keypad = [[0] * 3 for _ in range(3)]
-    # number = 1
-    # for i in range(3):
-    #     for j in range(3):
-    #         keypad[i][j] = number
-    #         number += 1
-    # keypad.append(['*', 0, '#'])
+    middled = [2, 5, 8, 11]
     
-    L_hand = (3, 0)
-    R_hand = (3, 2)
-
-    # 상 하 좌 우로 탐색하기, (x, y)
-    # move = [(-1, 0), (0, -1), (1, 0), (0, 1)]
-    # queue = deque([])
+    L_hand = 10
+    R_hand = 12
 
     for i in numbers:
+        # 거리 비교를 위해 0은 11롤 만들어버리기
+        if i == 0:
+            i = 11
         # 해당 숫자가 1, 4, 7 중 하나라면
         if i in left:
-            print('L')
-            L_hand = (left.index(), 0)
+            answer = answer + 'L'
+            L_hand = i
         # 해당 숫자가 3, 6, 9 중 하나라면
         elif i in right:  
-            print('R')
-            R_hand = (right.index(), 2)
+            answer = answer + 'R'
+            R_hand = i
         # 해당 숫자가 2, 5, 8, 0 중 하나라면 
-        # else:
+        else:
             # 왼손과 오른손의 거리를 비교하기
-            # queue.append(L_hand)
-            # serch = queue.popleft()
+            L_count = 0
+            R_count = 0
+            L = L_hand
+            R = R_hand
 
-            # 현재 손가락의 위치가 키패드보다 크다면 -1 하기
-            # 현재 손가락의 위치가 키패드 보다 크다면 +1 하기
-            # 
+            while L != i:    
+                # 타켓숫자와 거리 구하기
+                # 타켓숫자와의 거리가 2이상이라면
+                if L - i >= 2:
+                    L -= 3
+                    L_count += 1
+                # 타켓숫자와의 거리가 -2이하이라면
+                elif L - i <= -2:
+                    L += 3
+                    L_count += 1
+                # 타겟숫자와의 거리가 -1이라면
+                elif L - i == -1:
+                    L += 1
+                    L_count += 1
+            
+            while R != i:
+                # 타켓숫자와 거리 구하기
+                # 타켓숫자와의 거리가 2이상이라면
+                if R - i >= 2:
+                    R -= 3
+                    R_count += 1
+                # 타켓숫자와의 거리가 -2이하이라면
+                elif R - i <= -2:
+                    R += 3
+                    R_count += 1
+                # 타겟숫자와의 거리가 1이라면
+                elif R - i == 1:
+                    R -= 1
+                    R_count += 1
+            
+            if L_count > R_count:
+                answer = answer + 'R'
+                R_hand = i
+            elif L_count < R_count:
+                answer = answer + 'L'
+                L_hand = i
+            elif L_count == R_count:
+                if hand == 'right':
+                    answer = answer + 'R'
+                    R_hand = i
+                else:
+                    answer = answer + 'L'
+                    L_hand = i
+    
+    return answer
 
-
-    # answer = ''
-    # return answer
-
-    # print(keypad)
-
-solution([1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], "right")
+print(solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left"))
 
 
 # print((left.index(1),0))
