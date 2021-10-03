@@ -23,4 +23,7 @@
 ## implementation
 이름|문제링크|풀이
 ---|---|---|
-숫자 문자열과 영단어|[programmers_2021 카카오 채용연계형 인턴쉽](https://programmers.co.kr/learn/courses/30/lessons/81301)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%88%AB%EC%9E%90%20%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC%20%EC%98%81%EB%8B%A8%EC%96%B4.py)
+숫자 문자열과 영단어|[Programmers_2021 카카오 채용연계형 인턴쉽](https://programmers.co.kr/learn/courses/30/lessons/81301)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%88%AB%EC%9E%90%20%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC%20%EC%98%81%EB%8B%A8%EC%96%B4.py)
+신규 아이디 추천|[Programmers_2021 KAKAO BLIND RECRUITMENT](https://programmers.co.kr/learn/courses/30/lessons/72410)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%8B%A0%EA%B7%9C%20%EC%95%84%EC%9D%B4%EB%94%94%20%EC%B6%94%EC%B2%9C.py)
+없는 숫자 더하기|[Programmers_월간 코드 챌린지 시즌3](https://programmers.co.kr/learn/courses/30/lessons/86051)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0.Py)
+음양 더하기|[Programmers_월간 코드 챌린지 시즌2](https://programmers.co.kr/learn/courses/30/lessons/76501)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%9D%8C%EC%96%91%20%EB%8D%94%ED%95%98%EA%B8%B0.py)
