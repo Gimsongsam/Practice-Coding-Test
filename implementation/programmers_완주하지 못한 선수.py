@@ -22,37 +22,3 @@ def solution(participant, completion):
     return answer[0]
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
-
-
-
-# def solution(participant, completion):
-#     completion.sort()
-#     target_arr = participant.copy()
-
-#     def binary_search(completion, target, start, end):
-#         if start > end:
-#             return None
-#         mid = (start + end) // 2
-#         # 찾은 경우 중간점 인덱스 반환
-#         if completion[mid] == target:
-#             target_arr.remove(completion[mid])
-#             completion.remove(completion[mid])
-#             return
-#         # 중간점의 값보다 찾고자 하는 값이 작은 경우 왼쪽 확인
-#         elif completion[mid] > target:
-#             return binary_search(completion, target, start, mid - 1)
-#         # 중간점의 값보다 찾고자 하는 값이 큰 경우 오른쪽 확인
-#         else: 
-#             return binary_search(completion, target, mid + 1, end)
-
-#     for i in range(len(participant)):
-#             start = 0
-#             end = len(completion) - 1
-#             binary_search(completion, participant[i], start, end)
-
-#     # print(completion)
-#     # print(target_arr)
-    
-#     return target_arr[0]
-
-# print(solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]))
