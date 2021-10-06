@@ -22,3 +22,17 @@ def solution(participant, completion):
     return answer[0]
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
+
+# best CODE
+import collections
+
+
+def solution(participant, completion):
+    answer = collections.Counter(participant) - collections.Counter(completion)
+
+    print(collections.Counter(participant))
+    print(collections.Counter(completion))
+
+    return list(answer.keys())[0]
+
+print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
