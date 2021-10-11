@@ -1,4 +1,3 @@
-
 def solution(answers):
     x = [1, 2, 3, 4, 5]
     y = [2, 1, 2, 3, 2, 4, 2, 5]
@@ -7,14 +6,15 @@ def solution(answers):
     def search(answers, student):
         count = 0
         index = 0
-        for i in range(len(answers)):
+        for i in answers:
             # 현재 비교하는 수포자의 리스트가 마지막 인덱스라면
-            if len(student)-1 == index:
+            if len(student) == index:
                 index = 0 # 처음부터 비교
-            if answers[i] == student[index]:
+            if i == student[index]:
                 count += 1
             index += 1
 
+        print(count)
         return count
         
     result = []
