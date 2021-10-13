@@ -1,4 +1,5 @@
 # 코딩테스트 풀이
+
 ## Greedy
 이름|문제링크|풀이
 ---|---|---|
@@ -14,12 +15,14 @@
 소가 길을 건너간 이유3|[beakjoon_14469](https://www.acmicpc.net/problem/14469)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_14469.py)
 동전0|[beakjoon_11047](https://www.acmicpc.net/problem/11047)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/baekjoon_%EB%8F%99%EC%A0%84_11047.py)
 뒤집기|[beakjoon_1439](https://www.acmicpc.net/problem/1439)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/greedy/beakjoon_1439.py)
+
 ## sorting
 이름|문제링크|풀이
 ---|---|---|
 보물|[beakjoon_1026](https://www.acmicpc.net/problem/1026)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1026.py)
 소트인사이드|[beakjoon_1427](https://www.acmicpc.net/problem/1427)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1427.py)
 수 정렬하기|[baekjoon_2750](https://www.acmicpc.net/problem/2750)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_2750.py)
+
 ## implementation
 이름|문제링크|풀이
 ---|---|---|
@@ -27,3 +30,10 @@
 신규 아이디 추천|[Programmers_2021 KAKAO BLIND RECRUITMENT](https://programmers.co.kr/learn/courses/30/lessons/72410)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%8B%A0%EA%B7%9C%20%EC%95%84%EC%9D%B4%EB%94%94%20%EC%B6%94%EC%B2%9C.py)
 없는 숫자 더하기|[Programmers_월간 코드 챌린지 시즌3](https://programmers.co.kr/learn/courses/30/lessons/86051)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%97%86%EB%8A%94%20%EC%88%AB%EC%9E%90%20%EB%8D%94%ED%95%98%EA%B8%B0.Py)
 음양 더하기|[Programmers_월간 코드 챌린지 시즌2](https://programmers.co.kr/learn/courses/30/lessons/76501)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EC%9D%8C%EC%96%91%20%EB%8D%94%ED%95%98%EA%B8%B0.py)
+크레인 인형뽑기|[Programmers_2019 카카오 개발자 겨울 인턴십](https://programmers.co.kr/learn/courses/30/lessons/64061)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%ED%81%AC%EB%A0%88%EC%9D%B8%20%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0.py)
+키패드 누르기|[Programmers_2020 카카오 인턴십](https://programmers.co.kr/learn/courses/30/lessons/67256)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0.py)
+
+## DFS_BFS
+이름|문제링크|풀이
+---|---|---|
+음료수 얼려먹기|[이것이 코딩테스트다](https://gimsong83.notion.site/63662f26ecdb4f8c9f88a8f68ca79c23)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/DFS_BFS/5-3_%EC%9D%8C%EB%A3%8C%EC%88%98%20%EC%96%BC%EB%A0%A4%20%EB%A8%B9%EA%B8%B0.py)
