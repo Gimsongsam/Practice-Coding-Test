@@ -22,6 +22,7 @@
 보물|[beakjoon_1026](https://www.acmicpc.net/problem/1026)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1026.py)
 소트인사이드|[beakjoon_1427](https://www.acmicpc.net/problem/1427)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1427.py)
 수 정렬하기|[baekjoon_2750](https://www.acmicpc.net/problem/2750)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_2750.py)
+수 정렬하기2|[baekjoon_2751](https://www.acmicpc.net/problem/2751)|[풀이]
 
 ## implementation
 이름|문제링크|풀이
