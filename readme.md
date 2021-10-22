@@ -19,10 +19,12 @@
 ## sorting
 이름|문제링크|풀이
 ---|---|---|
-보물|[beakjoon_1026](https://www.acmicpc.net/problem/1026)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1026.py)
-소트인사이드|[beakjoon_1427](https://www.acmicpc.net/problem/1427)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_1427.py)
-수 정렬하기|[baekjoon_2750](https://www.acmicpc.net/problem/2750)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_2750.py)
-수 정렬하기2|[baekjoon_2751](https://www.acmicpc.net/problem/2751)|[풀이]
+보물|[beakjoon_1026](https://www.acmicpc.net/problem/1026)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_%EB%B3%B4%EB%AC%BC(1026).py)
+소트인사이드|[beakjoon_1427](https://www.acmicpc.net/problem/1427)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C(1427).py)
+수 정렬하기|[baekjoon_2750](https://www.acmicpc.net/problem/2750)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0(2750).py)
+수 정렬하기2|[baekjoon_2751](https://www.acmicpc.net/problem/2751)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/baekjoon_%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B02(2751).py)
+완주하지 못한 선수|[Programmers_해시](https://programmers.co.kr/learn/courses/30/lessons/42576)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/programmers_%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.py)
+K번째수|[Programmers_정렬](https://programmers.co.kr/learn/courses/30/lessons/42748)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/sorting/Programmers_K%EB%B2%88%EC%A7%B8%EC%88%98.py)
 
 ## implementation
 이름|문제링크|풀이
