@@ -43,6 +43,8 @@ K번째수|[Programmers_정렬](https://programmers.co.kr/learn/courses/30/lesso
 2016년|[Programmers_연습문제](https://programmers.co.kr/learn/courses/30/lessons/12901)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_2016%EB%85%84.py)
 [ 1차 ]비밀지도|[Programmers_2018 KAKAO BLIND RECRUITMENT](https://programmers.co.kr/learn/courses/30/lessons/17681)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%5B1%EC%B0%A8%5D%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84.py)
 [ 1차 ]다트게임|[2018 KAKAO BLIND RECRUITMENT](https://programmers.co.kr/learn/courses/30/lessons/17682)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%5B1%EC%B0%A8%5D%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84.py)
+2016년|[Programmers_연습문제](https://programmers.co.kr/learn/courses/30/lessons/12901)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_2016%EB%85%84.py)
+문자열압축|[Programmers_020 KAKAO BLIND RECRUITMENT](https://programmers.co.kr/learn/courses/30/lessons/60057)|[풀이](https://github.com/Gimsongsam/Practice-Coding-Test/blob/master/implementation/programmers_%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95.py)
 
 ## DFS_BFS
 이름|문제링크|풀이
